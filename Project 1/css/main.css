@@ -1,0 +1,63 @@
+h1 {
+  font-weight: 400;
+  font-size: 300%;
+}
+
+h2 {
+  text-align: left;
+  color: #f07c17;
+  font-size: x-large;
+  font-weight: bold;
+  height: 55px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  color: #666;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+#row1 {
+  margin: 25px 0px 0px 0px; /*Row 1 contains the header*/
+}
+
+#row2 {
+  margin: 23px 0px 0px 0px; /*Row 2 contains two columns, the aside with picture and list, and the section with the paragraphs*/
+}
+
+.aside {
+  margin: 0px -1px -1px -12px; /*Aside column contains the img and the list*/
+}
+
+.section {
+  margin: -32px -12px 0px 0px; /*Section contains the paragraphs*/
+  float:left;
+}
+
+.mainfeatures {
+  border-style: solid;
+  border-width: 1px;
+  margin: 30px 5px 10px 0px; /*Border and margin data for the Main Features list*/
+}
+
+#h2feature {
+  padding: 8px 3px 0px 27px; /*Padding for the h2 Main Features heading*/
+}
+
+#list {
+  padding: 0px 0px 28px 68px; /*Padding and line height for the unordered list in the Aside*/
+  line-height: 32px;
+}
+
+#h2goodway {
+  padding: 10px 17px 0px 0px; /*Padding for the Goodway h2 heading*/
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
